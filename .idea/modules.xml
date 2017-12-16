@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/JavaCryptoExercise.iml" filepath="$PROJECT_DIR$/.idea/JavaCryptoExercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileDecrypter/FileDecrypter.iml" filepath="$PROJECT_DIR$/FileDecrypter/FileDecrypter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileEncrypter/FileEncrypter.iml" filepath="$PROJECT_DIR$/FileEncrypter/FileEncrypter.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SecureCryptoFile:jar">
+    <output-path>$PROJECT_DIR$/</output-path>
+    <root id="archive" name="SecureCryptoFile.jar">
+      <element id="module-output" name="SecureCryptoFile" />
+    </root>
+  </artifact>
+</component>

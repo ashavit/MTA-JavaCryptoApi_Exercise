@@ -7,8 +7,8 @@ encrypt -k KEYSTORE -p KEYSTORE_PASSWORD -a PRIVATE_KEY_ALIAS -s PRIVATE_KEY_PAS
 ```
 
 ```
-encrypt -k /home/yurir/IdeaProjects/MTA-JavaCryptoApi_Exercise/Keystores/keystore_yuri.jks -p ab123456 -a yuri_ritvin -s yuri24 -t plaintext.txt -e penc -r amir_imported
-decrypt -k /home/yurir/IdeaProjects/MTA-JavaCryptoApi_Exercise/Keystores/keystore_amir.jks -p ab123456 -a amir_shavit -s amir135 -e penc.msg -c penc.xml -r yuri_imported
+java -jar SecureCryptoFile.jar encrypt -k Keystores/keystore_yuri.jks -p ab123456 -a yuri_ritvin -s yuri24 -t plaintext.txt -e penc -r amir_imported
+java -jar SecureCryptoFile.jar decrypt -k Keystores/keystore_amir.jks -p ab123456 -a amir_shavit -s amir135 -e penc.msg -c penc.xml -r yuri_imported
 ```
 
 Command Line Information
